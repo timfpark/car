@@ -2,9 +2,9 @@ var nitrogen = require('nitrogen')
   , Store = require('nitrogen-file-store');
 
 var config = {
-//    host: 'localhost',
-//    http_port: 3030,
-//    protocol: 'http'
+    host: 'api.nitrogen.io',
+    http_port: 443,
+    protocol: 'https'
 };
 
 config.store = new Store(config);

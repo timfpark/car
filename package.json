@@ -2,6 +2,7 @@
   "version": "0.1.0",
   "private": "true",
   "dependencies": {
+    "line-reader": "*",
     "nitrogen": "~0.2",
     "nitrogen-file-store": "^0.2.1"
   },
